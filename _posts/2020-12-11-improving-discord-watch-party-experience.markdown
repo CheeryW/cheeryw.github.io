@@ -24,17 +24,55 @@ Below are our findings:
 
 After reviewing those findings, we decided that we want to focus on improving the experience of a Discord watch party for movies or TV shows, since screen sharing is a commonly used feature in Discord that people have complaints about, and a watch party is a particular usage of this slightly unsatisfying feature that we can work on.
 
+## User Personas
+Now that we finished user research, we wanted to visualize a few user personas to have a deeper understanding of our target audience, so we drafted the following personas:
+![]({{ site.baseurl }}/images/alice.png)
+![]({{ site.baseurl }}/images/bob.png)
+![]({{ site.baseurl }}/images/bill.png)
+![]({{ site.baseurl }}/images/carol.png)
+
+## Competitors
+Below we listed some other apps that can also be used to hold a watch party. We analyzed their pros and cons, so that we can possibly integrate some good features into our design and avoid things they don't do so great on.
+
+### Netflix Party
+URL: https://www.netflixparty.com
+#### Pros
+* The user doesn't have to share their screen in order to watch them together with their friends. The user only needs to share a link to a Netflix video with their friends so that they can start to watch it together.
+* Has interactive live comments that visible to all users.
+* Users have a variety of options that they can stream together with their friends, such as Netflix, Disney, Hulu, and HBO.
+* No copyright issues.
+
+#### Cons
+* All users are currently required to have a Netflix account before allowing the user the service.
+* Can’t stream youtube videos.
+* Complicated installation process (learning curve for less tech-advanced people)
+* Chat only, no video camera interaction
+* Chat isn’t very interactive/customizable (Discord has custom server emotes and features/functions that can make it feel more personalized to each user group)
+
+### Zoom
+#### Pros
+* Video quality and screen sharing features are excellent.
+* Have more capacity for people to be on social meetings.
+
+#### Cons
+* The UI-designed feels towards for non-social meetings.
+* Copyright issues
+* Control over UI disappears when sharing screen
+* No volume slider for each person
+* No volume slider for screen being shared
+
+### Air Time
+#### Pros
+#### Cons
+
+### Rave
+#### Pros
+#### Cons
+
 Below is my style references.
 
 You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
-
 ### Why not indeed!
-
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. 
-
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
 
 Say what? Throw her in the brig. 
 
