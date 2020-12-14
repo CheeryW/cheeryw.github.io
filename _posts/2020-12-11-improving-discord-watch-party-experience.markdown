@@ -148,3 +148,22 @@ Based on the feedback we got from low fidelity prototype user testing, we built 
 ![]({{ site.baseurl }}/images/reax_on.png)
 
 ## User Testing on High Fidelity Prototype
+To get consistent user feedback, we will be revisiting our interview subjects from the earlier milestones to get direct feedback on things they already commented on.
+
+The interview subjects are heavy discord users. Some enjoy gaming, others do not game, and they possess a medium to high level of tech familiarity. Below are the feedback we received from them:
+
+* The UI looks simple compared to the existing UI and looks easier to use and understand
+* I like the updated reactions implementation that would have a toggle on the page and keep the reactions on the side in case people spam emojis
+* Would prefer to have custom server emotes on the emojis implementation
+* Should separate the screen sharing and the webcam sharing features on the UI so we can see share screen as the main and see the video cameras on the side or above like zoom (zoom does this very well)
+* Have the ability to change fonts, font size
+
+## Refining High Fidelity Prototype
+#### Adding What was in Low Fidelity Prototype
+In our first version of high fidelity prototype, there are still some elements that exist in earlier prototypes that we didn't have time to implement, so we added those after getting the feedback.
+![]({{ site.baseurl }}/images/invite_friends.png)
+*User invites friends to watch party*
+![]({{ site.baseurl }}/images/friend_notification.png)
+*The notification friends receive after being invited*
+
+#### Modification based on Feedback
