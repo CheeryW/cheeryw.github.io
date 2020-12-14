@@ -62,12 +62,67 @@ URL: https://www.netflixparty.com
 * No volume slider for screen being shared
 
 ### Air Time
+URL: https://apps.apple.com/us/app/airtime-watch-together/id1018368216
 #### Pros
+* Has a variety of Emojis that users can use to describe their emotions at a particular moment during live streaming with their friends.
+
 #### Cons
+* Doesn’t provide a way for users to login to their Netflix so that they can watch Netflix videos. 
+* Mobile UI only
+* Small video camera feeds
 
 ### Rave
+URL: https://apps.apple.com/us/app/rave-watch-together/id929775122
 #### Pros
+* Users have a variety of options that they can stream together with their friends, such as Netflix, Amazon Prime, Youtube, Vimeo.
+* No copyright issues.
+
 #### Cons
+* According to Netflix's terms of use, all users are currently required to have a Netflix account before allowing the user the service
+* Mobile only UI
+* No landscape mode (portrait video only with chat below)
+
+
+## UX Flow
+Before we started to implement our design, we drew a UX flow demonstrating the specific steps in user interaction.
+![]({{ site.baseurl }}/images/ux_flow.png)
+*UX Flow*
+
+When you and your friends join a group video call, Discord will show DM/server minimize buttons for you to make more screen space, along with a chat window on the side. There are also permanent UI buttons that allow you to show webcam, share screen, mute, disconnect. You don’t have to hover your mouse over to see those buttons anymore. After someone starts screen sharing their casual media browsing (youtube, twitch, etc), and people turn on their video cameras to show reactions, multiple popup windows will appear, one for streaming and one for friends’ webcams. When you hover your mouse over the shared video, it will show audio volume slider and video bitrate setting.
+
+## UI Sketches
+After we knew our basic UX flow, we drew some screen designs by hand. By this point, none of us had any experience with any UI design tool (such as Figma). Those sketches helped us focus on learning to use the UI design tool instead of designing the screens on the spot when we later implemented the low fidelity prototypes.
+### UI Sketch 1 (from DM Group Chat)
+![]({{ site.baseurl }}/images/sketch1_1.jpg)
+![]({{ site.baseurl }}/images/sketch1_2.jpg)
+![]({{ site.baseurl }}/images/sketch1_3.jpg)
+
+### UI Sketch 2 (from Server Voice Channel)
+![]({{ site.baseurl }}/images/sketch2_1.jpg)
+![]({{ site.baseurl }}/images/sketch2_2.jpg)
+![]({{ site.baseurl }}/images/sketch2_3.jpg)
+
+## Low Fidelity Prototype
+Below are the low fidelity prototypes we made, which is highly correlated with our UI Sketches. 
+
+### Prototype 1
+*Note that even though you will see overlapping screens in the following GIFs, it doesn't actually exist in our UI design. This is purely a flaw of GIF.*
+![]({{ site.baseurl }}/images/lofi_flow_1.gif)
+
+### Prototype 2
+![]({{ site.baseurl }}/images/lofi_flow_2_1.png)
+![]({{ site.baseurl }}/images/lofi_flow_2_2.png)
+
+## User Testing on Low Fidelity Prototypes
+After we finished the prototypes, we showed them to six potential users and gathered some feedback from them about the prototypes.
+### What Users Liked
+The users liked the functionality of having the chat on the side a lot because Discord only provides a PIP window of the video feed, which can damage the media sharing experience. The users also liked hiding the server list and DM list, since the server list is always there on Discord.
+
+### What Users Struggled With
+A few users were confused regarding the emoji feature of the video chat, because they believed that they would be bothered or spammed by their friends while watching/sharing videos or games. A potential fix would be for the sharer to toggle this feature or to make the emojis in a corner of the design.
+
+### Plan for Next Steps
+Moving forward we feel confident because the only disapproval we felt that we received was the emojis features, but we can change that with a few new features (toggling the feature, having the feature smaller on the screen). We will proceed with a mix of the two designs and just make them equal because they are generally similar.
 
 Below is my style references.
 
