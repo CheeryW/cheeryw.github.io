@@ -167,3 +167,14 @@ In our first version of high fidelity prototype, there are still some elements t
 *The notification friends receive after being invited*
 
 #### Modification based on Feedback
+From the feedback we received, we decided that Zoom-like camera windows and the pause request button are things that we can add on top of our current prototype, and the implementations are shown below.
+##### Moveable Camera Windows
+![]({{ site.baseurl }}/images/camera_windows.png)
+*Several users' cameras showing on the side*
+![]({{ site.baseurl }}/images/minimized_camera.png)
+*Only one user's camera is showing*
+##### Pause Request Button
+![]({{ site.baseurl }}/images/pause_request.png)
+
+## Reflection
+As a software developer, it is a novel and enriching experience to personally go through the events that happen before any code is written. I appreciate the opportunity this project has given me to get familiar with the design process. If we have more time, we will probably focus on refining the visual details of our high fidelity prototype so it is as close to the real Discord in terms of UI as possible.
