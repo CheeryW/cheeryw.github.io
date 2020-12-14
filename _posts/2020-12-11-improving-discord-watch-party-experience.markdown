@@ -124,12 +124,11 @@ A few users were confused regarding the emoji feature of the video chat, because
 ### Plan for Next Steps
 Moving forward we feel confident because the only disapproval we felt that we received was the emojis features, but we can change that with a few new features (toggling the feature, having the feature smaller on the screen). We will proceed with a mix of the two designs and just make them equal because they are generally similar.
 
-Below is my style references.
-
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
-### Why not indeed!
-
-Say what? Throw her in the brig. 
-
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+## High Fidelity Prototype
+Based on the feedback we got from low fidelity prototype user testing, we built a high fidelity prototype that looks much more like Discord than the previous prototypes.
+### Starting Point
+![]({{ site.baseurl }}/images/server_start.png)
+*Starting from server voice channel*
+![]({{ site.baseurl }}/images/DM_start.png)
+*Starting from DM group chat*
+### When Side Chat is Shown
