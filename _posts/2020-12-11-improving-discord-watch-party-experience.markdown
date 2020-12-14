@@ -10,10 +10,10 @@ This past year has been a special year. With the few-month-long quarantine still
 ## Find the Problem
 To find out what exactly we can improve on Discord, we first did some user research. We came up with some questions to ask users and then we translated the them to a survey using Google Forms. We mass distributed the survey through other Discord Channels, Reddit, close friends, and other social medias. 
 
-### User Demographics
+#### User Demographics
 Our survey got 41 responses in total. These participants of the survey __mostly have used Discord on regular basis and all of them have used Discord for social activities__. 75.6% of our survey respondents are 18 to 25 years old, and 22% of them are 26 to 35 years old. It is safe to say that in this study, we are mostly targeting users who are __18 to 35 years old__.
 
-### Research Findings
+#### Research Findings
 Below are our findings:
 
 * 87.8% of the respondents have done a video call/screen share on Discord before
@@ -92,12 +92,12 @@ When you and your friends join a group video call, Discord will show DM/server m
 
 ## UI Sketches
 After we knew our basic UX flow, we drew some screen designs by hand. By this point, none of us had any experience with any UI design tool (such as Figma). Those sketches helped us focus on learning to use the UI design tool instead of designing the screens on the spot when we later implemented the low fidelity prototypes.
-### UI Sketch 1 (from DM Group Chat)
+#### UI Sketch 1 (from DM Group Chat)
 ![]({{ site.baseurl }}/images/sketch1_1.jpg)
 ![]({{ site.baseurl }}/images/sketch1_2.jpg)
 ![]({{ site.baseurl }}/images/sketch1_3.jpg)
 
-### UI Sketch 2 (from Server Voice Channel)
+#### UI Sketch 2 (from Server Voice Channel)
 ![]({{ site.baseurl }}/images/sketch2_1.jpg)
 ![]({{ site.baseurl }}/images/sketch2_2.jpg)
 ![]({{ site.baseurl }}/images/sketch2_3.jpg)
@@ -105,30 +105,46 @@ After we knew our basic UX flow, we drew some screen designs by hand. By this po
 ## Low Fidelity Prototype
 Below are the low fidelity prototypes we made, which is highly correlated with our UI Sketches. 
 
-### Prototype 1
+#### Prototype 1
 *Note that even though you will see overlapping screens in the following GIFs, it doesn't actually exist in our UI design. This is purely a flaw of GIF.*
 ![]({{ site.baseurl }}/images/lofi_flow_1.gif)
 
-### Prototype 2
+#### Prototype 2
 ![]({{ site.baseurl }}/images/lofi_flow_2_1.png)
 ![]({{ site.baseurl }}/images/lofi_flow_2_2.png)
 
 ## User Testing on Low Fidelity Prototypes
 After we finished the prototypes, we showed them to six potential users and gathered some feedback from them about the prototypes.
-### What Users Liked
+#### What Users Liked
 The users liked the functionality of having the chat on the side a lot because Discord only provides a PIP window of the video feed, which can damage the media sharing experience. The users also liked hiding the server list and DM list, since the server list is always there on Discord.
 
-### What Users Struggled With
+#### What Users Struggled With
 A few users were confused regarding the emoji feature of the video chat, because they believed that they would be bothered or spammed by their friends while watching/sharing videos or games. A potential fix would be for the sharer to toggle this feature or to make the emojis in a corner of the design.
 
-### Plan for Next Steps
+#### Plan for Next Steps
 Moving forward we feel confident because the only disapproval we felt that we received was the emojis features, but we can change that with a few new features (toggling the feature, having the feature smaller on the screen). We will proceed with a mix of the two designs and just make them equal because they are generally similar.
 
 ## High Fidelity Prototype
 Based on the feedback we got from low fidelity prototype user testing, we built a high fidelity prototype that looks much more like Discord than the previous prototypes.
-### Starting Point
+#### Starting Point
 ![]({{ site.baseurl }}/images/server_start.png)
 *Starting from server voice channel*
 ![]({{ site.baseurl }}/images/DM_start.png)
 *Starting from DM group chat*
-### When Side Chat is Shown
+#### When Side Chat is Shown
+![]({{ site.baseurl }}/images/server_all_expanded.png)
+*Server View*
+![]({{ site.baseurl }}/images/DM_all_expanded.png)
+*DM View*
+#### Servers/DMs and Side Chat Minimized
+![]({{ site.baseurl }}/images/minimized.png)
+#### When Netflix Screen Share Starts
+![]({{ site.baseurl }}/images/with_reax_option.png)
+#### Viewing Chat While Watching Netflix
+![]({{ site.baseurl }}/images/chat_expanded.png)
+#### Choose Emoji Reaction
+![]({{ site.baseurl }}/images/choose_emoji.png)
+#### Emoji Reax Turned On
+![]({{ site.baseurl }}/images/reax_on.png)
+
+## User Testing on High Fidelity Prototype
